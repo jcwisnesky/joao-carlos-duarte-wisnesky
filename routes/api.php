@@ -22,4 +22,4 @@ use App\Http\Controllers\FileUploadController;
 
 Route::post('/upload', [FileUploadController::class, 'upload']);
 Route::get('/history', [FileUploadController::class, 'history']);
-Route::get('/search{id}', [FileUploadController::class, 'search']);
+Route::get('/search', [FileUploadController::class, 'search']);
